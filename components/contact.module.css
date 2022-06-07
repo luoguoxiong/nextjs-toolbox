@@ -1,0 +1,66 @@
+.contact{
+    background-color: rgba(0, 0, 0, 0);
+    background-size: cover;
+    background-repeat: no-repeat;
+    padding: 100px 100px 120px;
+    background-position: 50% 50%;
+    background-image: url(https://img4969.weyesimg.com/uploads/drwarm.com/images/15635155646161.jpg?imageView2/2/w/1919/format/webp/format/webp/format/webp/format/webp/format/webp);
+}
+.box{
+    width: 650px;
+}
+.title{
+    font-size: 36px;
+    font-weight: bold;
+    padding-bottom: 40px;
+}
+.desc{
+    font-size: 13px;
+    line-height: 30px;
+    color: #888;
+}
+.form{
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+.form-item{
+    width: 300px;
+    height: 50px;
+    background-color: #dfe0e3
+}
+.input{
+    border: none;
+    outline: none;
+    padding: 0 20px;
+    margin: 0;
+    display: block;
+    width: 100%;
+    height: 100%;
+    color: #9b9b9b;
+    padding: 20px;
+    background-color: #dfe0e3
+}
+.form-item2{
+    width: 100%;
+    height: 100px;
+    background-color: #dfe0e3
+}
+
+.btn{
+    margin-top: 20px;
+    width: 100%;
+    height: 50px;
+    background: #f6f8fc;
+    color: #eb811e;
+    border: 1px solid #eb811e;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-height: 100px;
+}
+.btn:hover{
+    background: #eb811e;
+    color: white;
+}
