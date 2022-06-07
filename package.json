@@ -19,6 +19,7 @@
   },
   "dependencies": {
     "axios": "^0.27.2",
+    "classnames": "^2.3.1",
     "next": "^12.1.4",
     "nodemailer": "^6.7.5",
     "react": "^17.0.2",
