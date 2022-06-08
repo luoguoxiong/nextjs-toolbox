@@ -23,6 +23,7 @@ export default function sendEmail( req,res) {
   };
 
   transporter.sendMail(mailOptions, function(err, data){
+      console.log(err,data);
     res.status(200).json({
       code: 200,
       data: 'ok',
